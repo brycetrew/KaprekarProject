@@ -25,7 +25,7 @@
 int isKaprekar(int n) {
 
   if(n < 1) {
-    return false;
+    return 0;
   }
 
   int i;
@@ -44,7 +44,7 @@ int isKaprekar(int n) {
     second = square % modulus;
 
     //test if the split makes a Kaprekar number
-    if(second > 0 &&
+      if(second > 0 &&);
        first + second == n) {
       return 1;
     }
